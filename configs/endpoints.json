@@ -1,0 +1,70 @@
+{
+    "base_url": "https://dadosabertos.camara.leg.br/api/v2",
+    "endpoints": {
+        "deputados": {
+            "path": "deputados",
+            "file_url": "http://dadosabertos.camara.leg.br/arquivos/deputados/json/deputados.json",
+            "params": {
+              "ordem": "ASC", 
+              "ordenarPor": "nome",
+              "itens": 100
+              }
+        },
+        "despesas": {
+            "path": "deputados/{id}/despesas",
+            "file_path": "http://www.camara.leg.br/cotas/Ano-{ano}.json.zip",
+            "params": {
+              "ano": [2025],
+              "itens": 100
+            }
+        },
+        "tipos_despesas": {
+            "path": "referencias/deputados/tipoDespesa",
+            "params" :{}
+        },
+        "frentes_deputados": {
+            "path": "deputados/{id}/frentes",
+            "file_path": "http://dadosabertos.camara.leg.br/arquivos/frentesDeputados/json/frentesDeputados.json",
+            "params": {
+              "ano": [2025],
+              "itens": 100
+            }
+        },
+        "frentes": {
+            "path": "frentes",
+            "file_path": "http://dadosabertos.camara.leg.br/arquivos/frentes/json/frentes.json",
+            "params": {
+              "idLegislatura": [57],
+              "itens": 100
+            }
+        },
+        "proposicoes": {
+            "path": "proposicoes",
+            "file_url": "http://dadosabertos.camara.leg.br/arquivos/proposicoes/json/proposicoes-{ano}.json",
+            "params": {
+              "ano": [2025],
+              "dataApresentacaoInicio": "2025-12-01",
+              "dataApresentacaoFim": "2025-12-31",
+              "itens": 100
+              }
+        },
+        "votacoes": {
+            "path": "vontacoes",
+            "file_url": "http://dadosabertos.camara.leg.br/arquivos/votacoes/json/votacoes-{ano}.json",
+            "params": {
+              "dataInicio": "2025-01-01",
+              "dataFim": "2025-12-31",
+              "itens": 100
+            }
+        },
+        "orgaos": {
+          "path": "orgaos",
+          "file_url": "http://dadosabertos.camara.leg.br/arquivos/orgaos/json/orgaos.json",
+          "params": {
+              "dataInicio": "2025-01-01",
+              "dataFim": "2025-12-31",
+              "itens": 100
+          }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "entity": "deputados",
+  "file_url": "https://dadosabertos.camara.leg.br/arquivos/deputados/json/deputados.json",
+  "params": {
+    "ordem": "ASC", 
+    "ordenarPor": "nome",
+    "itens": 100
+  }
+}

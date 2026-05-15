@@ -1,0 +1,8 @@
+{
+"entity": "orgaos_membros",
+"path": "eventos",
+"file_path": "http://dadosabertos.camara.leg.br/arquivos/frentesDeputados/json/orgaosDeputados-L{legislatura}.json",
+"params": {
+  "itens": 100
+}
+}

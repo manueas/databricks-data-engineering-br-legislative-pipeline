@@ -1,0 +1,8 @@
+{
+"entity": "eventos_deputados",
+"path": "eventos",
+"file_path": "http://dadosabertos.camara.leg.br/arquivos/frentesDeputados/json/eventosPresencaDeputados-{ano}.json",
+"params": {
+  "itens": 100
+}
+}

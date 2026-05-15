@@ -1,0 +1,10 @@
+{
+"entity": "orgaos_eventos",
+"path": "orgaos",
+"file_path": "http://dadosabertos.camara.leg.br/arquivos/eventosOrgaos/json/eventosOrgaos-{ano}.json",
+"params": {
+  "itens": 100,
+  "dataInicio": "2023-01-01",
+  "dataFim": "2023-12-31"
+}
+}

@@ -1,0 +1,6 @@
+{
+  "base_url": "https://dadosabertos.camara.leg.br/api/v2",
+  "catalog": "workspace",
+  "layer": "bronze",
+  "idLegislatura": [54, 55, 56, 57]
+}

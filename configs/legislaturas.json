@@ -1,0 +1,8 @@
+{
+"entity": "legislaturas",
+"path": "legislaturas",
+"file_url": "http://dadosabertos.camara.leg.br/arquivos/legislaturas/json/legislaturas.json",
+"params": {
+  "itens": 100
+}
+}

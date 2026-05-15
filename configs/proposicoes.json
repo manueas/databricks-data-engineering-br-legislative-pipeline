@@ -1,0 +1,9 @@
+{
+"entity": "proposicoes",
+"path": "proposicoes",
+"file_url": "http://dadosabertos.camara.leg.br/arquivos/proposicoes/json/proposicoes-{ano}.json",
+"params": {
+  "ano": [2026],
+  "itens": 100
+}
+}

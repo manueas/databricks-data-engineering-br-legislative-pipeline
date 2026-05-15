@@ -1,0 +1,8 @@
+{
+"entity": "frentes_membros",
+"path": "frentes",
+"file_path": "http://dadosabertos.camara.leg.br/arquivos/frentesDeputados/json/frentesDeputados.json",
+"params": {
+  "itens": 100
+}
+}

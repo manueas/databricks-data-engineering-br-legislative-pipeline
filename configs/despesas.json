@@ -1,0 +1,9 @@
+{
+"entity": "despesas",
+"path": "deputados/{id}/despesas",
+"file_path": "http://www.camara.leg.br/cotas/Ano-{ano}.json.zip",
+"params": {
+  "ano": [2024,2026],
+  "itens": 100
+}
+}
